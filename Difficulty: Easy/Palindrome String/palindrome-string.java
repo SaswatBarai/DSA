@@ -1,12 +1,6 @@
 class Solution {
     boolean isPalindrome(String str) {
         // code here
-        // StringBuilder revString = new StringBuilder(str).reverse();
-        // String rev = revString;
-        // if(str.equal(rev)){
-        //     return true;
-        // }
-        // return false;
         
         
         //!Two Pointer Approach 

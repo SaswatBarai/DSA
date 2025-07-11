@@ -3,7 +3,7 @@ class Solution {
         int temp[] = new int[nums.length];
         int j = 0;
         temp[0] = nums[0];
-        for(int i =0; i<nums.length; i++)
+        for(int i =1; i<nums.length; i++)
         {
             if(temp[j] != nums[i])
             {
