@@ -1,0 +1,16 @@
+function mySqrt(x: number): number {
+    let start: number = 0;
+    let end: number = x;
+
+    while (start <= end) {
+        let mid: number = Math.floor(start + (end - start) / 2);
+
+        if (mid * mid <= x) {
+            start = mid + 1;
+        } else {
+            end = mid - 1;
+        }
+    }
+
+    return end; 
+}
